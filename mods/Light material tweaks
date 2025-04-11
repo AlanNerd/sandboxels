@@ -1,0 +1,10 @@
+elements.light_coating = {
+  color: "#e4edea",
+  behavior: behaviors.WALL,
+  category: "solids",
+  density: 3000,
+  reactions: {
+    "light": { elem1: null, elem2: null },
+    "liquid_light": { elem1: null, elem2: null }
+  }
+};
